@@ -57,11 +57,4 @@ void loop() {
 void moveServo(int angle) {
     myservo.write(angle);
     delay(100);
-  // for (int i=0; i++; 5)
-  // {
-  //   myservo.write(90);
-  //   delay(500);
-  //   myservo.write(90);
-  //   delay(500); 
-  // }
 }
